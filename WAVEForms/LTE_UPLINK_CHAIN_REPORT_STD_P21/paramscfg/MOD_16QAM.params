@@ -12,6 +12,9 @@ parameter {
 #define M_4QAM						1
 #define M_16QAM						2
 #define M_64QAM						3
+#define M_256QAM                    4
+#define M_1024QAM                    5
+
 parameter {
 	name = modulation
 	value = 2
