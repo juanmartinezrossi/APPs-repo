@@ -1,0 +1,65 @@
+#------------------------------------------------------------------
+#define NORMAL_NORS				0			// Normal Operation Mode
+#define NORMAL_WITHRS			1			// Normal Operation Mode
+#define BYPASS					2			// Bypass Mode: Output = Input
+#define DEBUGG					3			// Debugg Mode according DEBUGG_XX value
+parameter {
+	name = opMODE
+	value = 0
+}
+#------------------------------------------------------------------
+# debugMODE: 1-NO ACTIVE, 2-PRINT MODE, 3-INPUT RAMP, 4-INPUT ALL ZEROS
+# debugMODE: 5-INPUT ALL ONES
+parameter {
+	name = debugMODE
+	value = 1
+}
+#------------------------------------------------------------------
+# numchars7FFT
+parameter {
+	name = numchars7FFT
+	value = 71
+}
+#------------------------------------------------------------------
+# numchars13FFT
+parameter {
+	name = numchars13FFT
+	value = 137
+}
+#------------------------------------------------------------------
+# numchars14FFT
+parameter {
+	name = numchars14FFT
+	value = 149
+}
+#------------------------------------------------------------------
+# numTSNOT2SEND: numTSNOT2SEND-1 Tslots to receive 0 data
+# Only one of numTSNOT2SEND Tslots MAPPINGV is asking for data
+parameter {
+	name = numTSNOT2SEND
+	value = 14
+}
+#------------------------------------------------------------------
+#------------------------------------------------------------------
+# numTSChainDelay: Should not be > numTSNOT2SEND
+parameter {
+	name = numTSChainDelay
+	value = 7
+}
+#------------------------------------------------------------------
+#------------------------------------------------------------------
+# phylayerID: Cell identifier 0-504
+parameter {
+	name = phylayerID
+	value = 0
+}
+#------------------------------------------------------------------
+#------------------------------------------------------------------
+# FFTsz: 
+parameter {
+	name = FFTsz
+	value = 128
+}
+#------------------------------------------------------------------
+
+

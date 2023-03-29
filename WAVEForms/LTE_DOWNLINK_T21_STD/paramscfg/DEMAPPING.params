@@ -1,0 +1,19 @@
+parameter {
+	name = FFTsize
+	value = 128
+}
+
+#0-NORMAL_NORS, 1-NORMAL_WITHRS
+parameter {
+	name = opMODE
+	value = 0
+}
+
+
+parameter {
+	name = PHYLayerID
+	value = 0
+}
+
+
+

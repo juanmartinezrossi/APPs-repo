@@ -1,0 +1,23 @@
+
+# subframe_length
+parameter {
+	name = subframe_length
+	value = 1792
+}
+# samplingfreqHz: A value in Hz. Use 1.0 when refers to samples
+parameter {
+	name = samplingfreqHz
+	value = 48000.0
+}
+
+# PSS_idx: A value 0, 1 or 2 is possible.
+parameter {
+	name = PSS_idx
+	value = 0
+}
+
+
+
+
+
+

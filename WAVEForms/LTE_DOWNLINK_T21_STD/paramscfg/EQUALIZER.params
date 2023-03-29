@@ -1,0 +1,9 @@
+#define DEBUGG			0
+#define BYPASS			1
+#define NORMAL			2
+parameter {
+	name = opMODE
+	value = 2
+}
+
+

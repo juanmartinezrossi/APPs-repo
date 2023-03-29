@@ -82,7 +82,7 @@ parameter {
 # numsampl2view: Data is not plot until numsampl2view has been received
 parameter {
 	name = numsampl2view
-	value = 12000
+	value = 1024
 }
 
 # plot_periodTS: Defines the number of Time slot to skip before to plot again

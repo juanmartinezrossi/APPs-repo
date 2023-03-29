@@ -1,0 +1,10 @@
+# INTEGER TYPE
+#define DEBUGG									0
+#define FREQ_CHANNEL_ESTIMATION	1
+#define BYPASS									2
+
+parameter {
+	name = opMODE
+	value = 1
+}
+
